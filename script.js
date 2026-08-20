@@ -17,28 +17,28 @@ navLinks.forEach(link => {
 const projectData = [
     {
         title: 'Full Stack Python Project',
-        main: '../Screenshot 2026-08-19 152404.png',
-        detail: '../Screenshot 2026-08-19 152515.png',
+        main: './Screenshot 2026-08-19 152404.png',
+        detail: './Screenshot 2026-08-19 152515.png',
         description: 'A full-stack web application built to combine a responsive frontend with Python-based backend functionality and a practical user workflow.'
     },
     {
         title: 'Full Stack Web Application',
-        main: '../Screenshot 2026-08-19 151253.png',
-        detail: '../Screenshot 2026-08-19 152232.png',
+        main: './Screenshot 2026-08-19 151253.png',
+        detail: './Screenshot 2026-08-19 152232.png',
         description: 'A modern web application project focused on clean UI, structured pages, responsive layouts and smooth interaction between the user interface and application logic.'
     },
-    {
-        title: 'Frontend Responsive Website',
-        main: './project3-main.png',
-        detail: './project3-detail.jpeg',
-        description: 'A responsive frontend project created with modern HTML, CSS and JavaScript techniques, designed to provide a smooth experience across different screen sizes.'
-    },
-    {
-        title: 'Frontend UI Project',
-        main: './project4-main.jpeg',
-        detail: './project4-detail.png',
-        description: 'A frontend-focused project showcasing a polished interface, reusable UI sections, responsive styling and interactive elements.'
-    }
+    // {
+    //     title: 'Frontend Responsive Website',
+    //     main: './project3-main.png',
+    //     detail: './project3-detail.jpeg',
+    //     description: 'A responsive frontend project created with modern HTML, CSS and JavaScript techniques, designed to provide a smooth experience across different screen sizes.'
+    // },
+    // {
+    //     title: 'Frontend UI Project',
+    //     main: './project4-main.jpeg',
+    //     detail: './project4-detail.png',
+    //     description: 'A frontend-focused project showcasing a polished interface, reusable UI sections, responsive styling and interactive elements.'
+    // }
 ];
 
 const modal = document.getElementById('projectModal');
